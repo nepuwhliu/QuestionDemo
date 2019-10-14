@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.wuxiaolong.androidutils:androidutils:1.0.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/875cbd12f4b4a8219f2a4029cf79ba0c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/875cbd12f4b4a8219f2a4029cf79ba0c/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.wuxiaolong.androidutils/androidutils/1.0.6/a81ca0aca28144d4d5a95a520ba2ab71f8f553ce/androidutils-1.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,4 @@
+#Mon Oct 14 20:43:06 CST 2019
+base.0=D\:\\Code_Android\\QuestionApplication\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+renamed.0=classes.dex
+path.0=classes.dex
