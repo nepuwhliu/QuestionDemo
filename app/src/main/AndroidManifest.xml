@@ -24,6 +24,11 @@
         <activity android:name=".ui.RandomActivity"></activity>
         <activity android:name=".ui.StrengthenActivity"></activity>
         <activity android:name=".ui.SimulationActivity"></activity>
+
+        <activity android:name=".ui.type.SingleActivity"></activity>
+        <activity android:name=".ui.type.MultipleActivity"></activity>
+        <activity android:name=".ui.type.JudgeActivity"></activity>
+        <activity android:name=".ui.type.QuestionAndAnswerActivity"></activity>
     </application>
 
 </manifest>

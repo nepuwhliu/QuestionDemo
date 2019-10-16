@@ -59,6 +59,42 @@ public class QuestionModel {
     }
 
     /**
+     * 根据条件加载数据
+     */
+    public void loadDataByCondition(String levelName, String typeName){
+        Call<List<QuestionBean>> call = apiStores().getSingleQuestion(levelName, typeName);
+        call.enqueue(new RetrofitCallback<List<QuestionBean>>() {
+            /**
+             * 拿到题目数据
+             * @param questionBeans
+             */
+            @Override
+            public void onSuccess(List<QuestionBean> questionBeans) {
+                /**
+                 * 请求成功
+                 */
+                mIQuestionPresenter.loadDataSuccess(questionBeans);
+            }
+            @Override
+            public void onFailure(int code, String msg) {
+                /**
+                 * 请求失败
+                 */
+                mIQuestionPresenter.loadDataFailure("失败代码:" + code + ", 原因:" + msg);
+            }
+            @Override
+            public void onThrowable(Throwable t) {
+                //getDataFail(t.getMessage());
+            }
+            @Override
+            public void onFinish() {
+
+            }
+        });
+
+    }
+
+    /**
      * 拿到Api的对象
      * @return
      */

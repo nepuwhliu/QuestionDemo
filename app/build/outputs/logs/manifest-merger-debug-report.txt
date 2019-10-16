@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:2:1-34:12
 MERGED from [com.wuxiaolong.androidutils:androidutils:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\875cbd12f4b4a8219f2a4029cf79ba0c\AndroidManifest.xml:2:1-16:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ef86e46ac44d1fcc4ae25cf2d980d8e4\AndroidManifest.xml:17:1-22:12
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1f8f6be79ff12ba27544ca7318577815\AndroidManifest.xml:15:1-21:12
@@ -32,20 +32,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2af6896b92220acab024a0a27c89eaf7\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d7d4dc32efa40a9a36a75ca775d3f0e5\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9afc1b924c94bcc921ffa09a16f995ea\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml
-		ADDED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:2:1-29:12
+		ADDED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:2:1-34:12
 		INJECTED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml
-		ADDED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:2:1-29:12
+		ADDED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:2:1-34:12
 		INJECTED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:2:11-69
@@ -54,7 +54,7 @@ ADDED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:
 	android:name
 		ADDED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:6:5-27:19
+ADDED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:6:5-32:19
 MERGED from [com.wuxiaolong.androidutils:androidutils:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\875cbd12f4b4a8219f2a4029cf79ba0c\AndroidManifest.xml:11:5-14:38
 MERGED from [com.wuxiaolong.androidutils:androidutils:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\875cbd12f4b4a8219f2a4029cf79ba0c\AndroidManifest.xml:11:5-14:38
 MERGED from [androidx.core:core:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a568d853c2a00ce552842156a30cf941\AndroidManifest.xml:22:5-89
@@ -113,6 +113,22 @@ activity#com.example.application.ui.SimulationActivity
 ADDED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:26:9-68
 	android:name
 		ADDED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:26:19-56
+activity#com.example.application.ui.type.SingleActivity
+ADDED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:28:9-69
+	android:name
+		ADDED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:28:19-57
+activity#com.example.application.ui.type.MultipleActivity
+ADDED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:29:9-71
+	android:name
+		ADDED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:29:19-59
+activity#com.example.application.ui.type.JudgeActivity
+ADDED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:30:9-68
+	android:name
+		ADDED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:30:19-56
+activity#com.example.application.ui.type.QuestionAndAnswerActivity
+ADDED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:31:9-80
+	android:name
+		ADDED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml:31:19-68
 uses-sdk
 INJECTED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Code_Android\QuestionApplication\app\src\main\AndroidManifest.xml

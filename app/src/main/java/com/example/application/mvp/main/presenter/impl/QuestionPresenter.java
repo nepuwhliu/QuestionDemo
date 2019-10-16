@@ -25,7 +25,7 @@ public class QuestionPresenter implements BasePresenter<QuestionView>, IQuestion
     /**
      * 加载数据 显示加载栏
      */
-    public void loadData() {
+    public void loadData(String levelName, String typeName) {
         /**
          * 显示加载栏
          */
@@ -33,7 +33,7 @@ public class QuestionPresenter implements BasePresenter<QuestionView>, IQuestion
         /**
          * 加载数据
          */
-        mQuestionModel.loadData();
+        mQuestionModel.loadDataByCondition(levelName, typeName);
     }
     @Override
     public void loadDataSuccess(List<QuestionBean> questionBeans) {

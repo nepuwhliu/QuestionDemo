@@ -40,7 +40,7 @@ public class QuestionActivity extends MvpActivity<QuestionPresenter> implements 
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                mvpPresenter.loadData();
+
             }
         }, 2000);
     }

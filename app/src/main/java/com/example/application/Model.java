@@ -2,7 +2,7 @@ package com.example.application;
 
 public class Model {
 
-	public static int[] EXPANDABLE_LISTVIEW_IMG = new int[] {
+	public static int[] IMAGE = new int[] {
 			R.drawable.ic_sequence_image01, R.drawable.ic_sequence_image02,
 			R.drawable.ic_sequence_image03, R.drawable.ic_sequence_image04,
 			R.drawable.ic_sequence_image04 };
