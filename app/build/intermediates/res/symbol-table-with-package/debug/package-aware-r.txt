@@ -650,7 +650,6 @@ id add
 id alertTitle
 id all
 id always
-id answer
 id async
 id beginning
 id blocking
@@ -693,7 +692,6 @@ id fill_vertical
 id forever
 id group_divider
 id group_title
-id help
 id home
 id homeAsUp
 id icon
@@ -743,7 +741,6 @@ id relThree
 id relTwo
 id rel_help
 id right
-id rightAnswer
 id right_icon
 id right_side
 id rl_Title
@@ -767,14 +764,17 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id single_answer
 id single_back
 id single_collect
 id single_forward
+id single_help
 id single_number
 id single_question_select
 id single_question_title
 id single_question_type
 id single_relativeLayout_collect
+id single_rightAnswer
 id single_select_four
 id single_select_one
 id single_select_three

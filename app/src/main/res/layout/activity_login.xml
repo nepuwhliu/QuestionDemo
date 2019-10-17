@@ -31,7 +31,6 @@
         android:layout_gravity="center"
         android:layout_marginTop="15dp"
         android:hint="账号"
-        android:text="newwenhao"
         android:textSize="20sp" />
     <!--输入框-->
     <EditText
@@ -41,7 +40,6 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:hint="密码"
-        android:text="new1256862812"
         android:textSize="20sp"
         android:inputType="textPassword"/>
     <!--按钮-->

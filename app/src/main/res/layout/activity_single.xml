@@ -135,23 +135,7 @@
                 android:textColor="#FFFFFF"
                 android:visibility="visible" />
             <TextView
-                android:id="@+id/single_"
-                android:onClick="onClick"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/single_question_select"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/ic_single_submit"
-                android:gravity="center"
-                android:padding="8dp"
-                android:text="提交答案"
-                android:textSize="18sp"
-                android:textColor="#FFFFFF"
-                android:visibility="visible" />
-            <TextView
-                android:id="@+id/rightAnswer"
+                android:id="@+id/single_rightAnswer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/single_submit"
@@ -162,10 +146,10 @@
                 android:textColor="@color/right_answer"
                 android:textSize="15sp" />
             <TextView
-                android:id="@+id/answer"
+                android:id="@+id/single_answer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/rightAnswer"
+                android:layout_below="@+id/single_rightAnswer"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"
@@ -173,10 +157,10 @@
                 android:padding="6dp"
                 android:textSize="14sp" />
             <TextView
-                android:id="@+id/help"
+                android:id="@+id/single_help"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/answer"
+                android:layout_below="@+id/single_answer"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"
